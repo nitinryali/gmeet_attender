@@ -2,6 +2,7 @@ from time import sleep
 import pyautogui as auto
 import schedule, webbrowser
 x = int(input("enter how many links you want? "))
+print("hi")
 for i in range(1,x+1):
          link = input("paste the link:").strip()
          time = input("enter time in 24hrs:").strip()
